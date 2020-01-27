@@ -1,0 +1,68 @@
+{
+  "editor.fontFamily": "'Dank mono'",
+  "editor.fontSize": 21,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 32,
+  "editor.letterSpacing": 0.9,
+  "editor.fontWeight": "400",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "terminal.integrated.fontSize": 19,
+  "files.autoSave": "off",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.matchBrackets": "always",
+  "workbench.colorTheme": "Default High Contrast",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "workbench.colorCustomizations": {
+    "[Default High Contrast]": {
+      "activityBar.background": "#000000",
+      "editor.background": "#191f1c",
+      "activityBar.foreground": "#bada55",
+      "activityBar.border": "#40E0D0",
+      "activityBarBadge.background": "#bada55",
+      "activityBarBadge.foreground": "#000000",
+      "editor.wordHighlightBorder": "#40E0D0",
+      "window.activeBorder": "#40E0D0",
+      "titleBar.border": "#40E0D0",
+      "tab.activeBorder": "#40E0D0",
+      "tab.activeBorderTop": "#40E0D0",
+      "tab.border": "#40E0D0",
+      "tab.inactiveBackground": "#414141",
+      "tab.inactiveForeground": "#969696",
+      "tab.inactiveModifiedBorder": "#40E0D0",
+      "tab.unfocusedInactiveModifiedBorder": "#40E0D0",
+      "tab.activeModifiedBorder": "#40E0D0",
+      "editor.selectionBackground": "#838383"
+    }
+  },
+  "explorer.openEditors.visible": 0,
+  "breadcrumbs.enabled": false,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "files.associations": {
+    "*.css": "scss"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.migration.2_x": "off",
+  "workbench.iconTheme": "eq-material-theme-icons-darker"
+}
