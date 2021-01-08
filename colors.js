@@ -147,3 +147,4 @@ const colors = [
   { name: "Yellow", hex: "#FFFF00" },
   { name: "YellowGreen", hex: "#9ACD32" }
 ];
+module.exports = colors;
