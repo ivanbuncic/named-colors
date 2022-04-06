@@ -1,68 +1,208 @@
 {
-  "editor.fontFamily": "'Dank mono'",
+  "workbench.sideBar.location": "right",
+  "editor.fontFamily": "Operator Mono Lig",
+  "editor.quickSuggestionsDelay": 30,
+  "editor.suggestFontSize": 17,
+  "editor.tabSize": 2,
+  "editor.fontWeight": "300",
+  "editor.letterSpacing": 0.2,
   "editor.fontSize": 21,
+  "editor.lineHeight": 1.5,
   "editor.fontLigatures": true,
-  "editor.lineHeight": 32,
-  "editor.letterSpacing": 0.9,
-  "editor.fontWeight": "400",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.formatOnSave": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "terminal.integrated.lineHeight": 1.4,
+  "workbench.startupEditor": "none",
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "css.validate": false,
+  "editor.semanticHighlighting.enabled": true,
+  "csharp.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "workbench.editorAssociations": {
+    "*.hex": "hexEditor.hexedit",
+    "*.ini": "hexEditor.hexedit"
+  },
+  "emmet.includeLanguages": {
+    "aspnetcorerazor": "html",
+    "twig": "html",
+    "njk": "html"
+  },
+  "php.validate.executablePath": "D:\\PHP\\php.exe",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": true
-  },
-  "terminal.integrated.fontSize": 19,
-  "files.autoSave": "off",
-  "editor.minimap.enabled": false,
-  "editor.wordWrap": "on",
-  "vsicons.dontShowNewVersionMessage": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
-  "editor.matchBrackets": "always",
-  "workbench.colorTheme": "Default High Contrast",
-  "workbench.activityBar.visible": true,
-  "workbench.statusBar.visible": false,
-  "workbench.sideBar.location": "right",
-  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.formatOnSave": false
   },
   "workbench.colorCustomizations": {
-    "[Default High Contrast]": {
+    "[Solarized Light]": {
       "activityBar.background": "#000000",
-      "editor.background": "#191f1c",
       "activityBar.foreground": "#bada55",
-      "activityBar.border": "#40E0D0",
       "activityBarBadge.background": "#bada55",
       "activityBarBadge.foreground": "#000000",
-      "editor.wordHighlightBorder": "#40E0D0",
-      "window.activeBorder": "#40E0D0",
-      "titleBar.border": "#40E0D0",
-      "tab.activeBorder": "#40E0D0",
-      "tab.activeBorderTop": "#40E0D0",
-      "tab.border": "#40E0D0",
-      "tab.inactiveBackground": "#414141",
-      "tab.inactiveForeground": "#969696",
-      "tab.inactiveModifiedBorder": "#40E0D0",
-      "tab.unfocusedInactiveModifiedBorder": "#40E0D0",
-      "tab.activeModifiedBorder": "#40E0D0",
-      "editor.selectionBackground": "#838383"
+      "badge.background": "#f5563a",
+      "badge.foreground": "#fff",
+      "editorCursor.foreground": "#f5563a",
+      "statusBar.background": "#bada55",
+      "statusBar.foreground": "#000000",
+      "statusBar.noFolderBackground": "#bada55",
+      "statusBar.noFolderForeground": "#000000",
+      "statusBarItem.remoteBackground": "#bada55",
+      "statusBarItem.remoteForeground": "#000000",
+      "button.background": "#f5563a",
+      "titleBar.activeBackground": "#bada55",
+      /*"titleBar.activeBackground": "#f5563a", BACKEND*/
+      "titleBar.activeForeground": "#000",
+      /*"titleBar.activeForeground": "#FFF", BACKEND*/
+      "titleBar.inactiveBackground": "#a4a5a0",
+      "titleBar.inactiveForeground": "#424242fa",
+      "editor.foreground": "#35332f",
+      "editor.selectionBackground": "#f2ff3f"
     }
   },
-  "explorer.openEditors.visible": 0,
-  "breadcrumbs.enabled": false,
-  "javascript.implicitProjectConfig.checkJs": true,
-  "editor.cursorBlinking": "solid",
-  "editor.cursorStyle": "line",
-  "files.associations": {
-    "*.css": "scss"
+  "editor.tokenColorCustomizations": {
+    "[Solarized Light]": {
+      "types": "#35332f",
+      "variables": "#292929",
+      "comments": "#a3a095",
+      "keywords": "#35332f",
+      "numbers": "#35332f",
+      "strings": "#35332f",
+      "functions": {
+        "fontStyle": "italic",
+        "foreground": "#D62246"
+      },
+      "textMateRules": [
+        {
+          "scope": [
+            "punctuation.definition.variable",
+            "support.type",
+            "support.class",
+            "markup.quote",
+            "markup.list",
+            "markup.heading",
+            "markup.heading.text",
+            "meta.embedded",
+            "source.groovy.embedded",
+            "constant.language",
+            "entity.other.inherited-class",
+            "meta.preprocessor",
+            "punctuation.definition.variable",
+            "punctuation.section.embedded.begin",
+            "punctuation.section.embedded.end",
+            "punctuation.definition.tag.begin",
+            "punctuation.definition.tag.end",
+            "string",
+            "entity",
+            "keyword"
+          ],
+          "settings": {
+            "foreground": "#35332f"
+          }
+        },
+        {
+          "scope": [
+            "entity.other.attribute-name",
+            "entity.name.function",
+            "entity.name.tag",
+            "entity.name.method",
+            "entity.name.type",
+            "entity.name.class",
+            "entity.name.section",
+            "entity.name.selector",
+            "entity",
+            "entity.name",
+            "entity.other"
+          ],
+          "settings": {
+            "foreground": "#171818",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": [
+            "variable",
+            "variable.language",
+            "variable.other",
+            "variable.name",
+            "variable.other.readwrite",
+            "variable.parameter",
+            "storage.type.function.arrow.js"
+          ],
+          "settings": {
+            "foreground": "#e4264c",
+            "fontStyle": "italic bold"
+          }
+        }
+      ]
+    }
   },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+  "git.enableSmartCommit": true,
+  "editor.minimap.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "prettier.printWidth": 120,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "Solarized Light",
+  "debug.internalConsoleOptions": "neverOpen",
+  "css.lint.unknownAtRules": "ignore",
+  "svelte.enable-ts-plugin": true,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "#D62246",
+        "highlight": "#fafafa"
+      }
+    }
   },
-  "eslint.migration.2_x": "off",
-  "workbench.iconTheme": "eq-material-theme-icons-darker"
+  "git.confirmSync": false,
+  "workbench.iconTheme": "vscode-icons",
+  "[nunjucks]": {
+    "editor.defaultFormatter": "okitavera.vscode-nunjucks-formatter"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[twig]": {
+    "editor.defaultFormatter": "mblode.twig-language-2"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.languageServer": "Pylance",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "javascript": true
+  },
+  "explorer.compactFolders": false,
+  "workbench.settings.editor": "json"
 }
